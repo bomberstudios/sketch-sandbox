@@ -20,7 +20,6 @@ The library is not heavily tested, so please [file an issue](https://github.com/
 ## Notes
 
 - Once a user authorizes a folder, you'll be able to write to its subfolders.
--
 
 ## Example
 
