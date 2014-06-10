@@ -6,7 +6,7 @@ A small library to get around sandbox issues in Sketch.
 
 I'll write a real explanation when I have the time, but if you don't know why you need this, this is definitely not for you :)
 
-The library is not heavily tested, so please [file an issue](/bomberstudios/sketch-sandbox/issues) if it doesn't work for you :)
+The library is not heavily tested, so please [file an issue](https://github.com/bomberstudios/sketch-sandbox/issues) if it doesn't work for you :)
 
 ## Usage
 
