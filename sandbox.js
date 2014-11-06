@@ -1,5 +1,5 @@
 var environ = [[NSProcessInfo processInfo] environment],
-    in_sandbox= (nil != [environ objectForKey:@"APP_SANDBOX_CONTAINER_ID"])
+    in_sandbox= (nil != [environ objectForKey:"APP_SANDBOX_CONTAINER_ID"])
 
 if(in_sandbox){
   print("We’re sandboxed: here be dragons")
