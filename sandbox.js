@@ -8,6 +8,10 @@ if(in_sandbox){
 AppSandbox = function(context){
   var scriptPath = context.scriptPath.substring(0, context.scriptPath.indexOf('\.sketchplugin/') + 1)
   this.prefFile =  scriptPath + "sketchplugin/Contents/Resources/preferences.plist"
+  if (![fileManager fileExistsAtPath:this.prefFile]) {
+    var newDictionary = [NSDictionary dictionary]
+    [newDictionary writeToFile:this.prefFile atomically:true]
+  }
 }
 AppSandbox.prototype.authorize = function(path, callback){
   log("AppSandbox.authorize("+path+")")
