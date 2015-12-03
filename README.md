@@ -1,3 +1,5 @@
+**Update: I'm sure you've all read about Sketch leaving the App Store (more info at http://sketchapp.com/exit). I can't say I'll miss fighting with the sandbox, so I guess it's time to freeze this project : )**
+
 # Sketch Sandbox
 
 A small library to get around sandbox issues in Sketch.
